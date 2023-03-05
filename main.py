@@ -25,5 +25,8 @@ def get_gogo(url):
 	return (f"https:{linkgogo}")
 
 #Open in webview window
-webview.create_window(anime_name, get_gogo(url))
-webview.start()
+def toggle_fullscreen(window):
+    window.toggle_fullscreen()
+
+window = webview.create_window(anime_name, get_gogo(url))
+webview.start(toggle_fullscreen, window)
