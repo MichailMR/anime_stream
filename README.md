@@ -1,4 +1,5 @@
-#Edit on Aniscraper
+# Edit on Aniscraper
+
 https://github.com/Havoi/AniScraper
 
 - Added python webviewer
